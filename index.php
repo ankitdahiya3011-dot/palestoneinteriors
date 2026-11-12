@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en" class="HeightFullElement" dir="ltr">
-  <head>
+  <head><script>
+  const domain = window.location.hostname;
+  const s = document.createElement("script");
+  s.defer = true;
+  s.setAttribute("data-domain", domain);
+  s.src = "https://plausible.io/js/script.js";
+  document.head.appendChild(s);
+</script>
     <meta
       name="description"
       content="Pale Stone Interiors is an interior design studio concept focused on thoughtful, practical spaces for homes across England. The approach brings together considered layouts, material palettes, lighting ideas and personal details, with each design shaped around the people who use the space. From an early conversation to a refined design direction, the aim is to make decisions clearer and create interiors that feel balanced, welcoming and suited to everyday life."
